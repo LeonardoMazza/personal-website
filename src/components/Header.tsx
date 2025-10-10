@@ -2,7 +2,7 @@ import React from 'react';
 
 const Introduction = () => {
   return (
-    <section className="my-8">
+    <section className="mt-8 max-w-xs -leading-normal">
       <h1 className="text-4xl font-bold">Leonardo Mazza</h1>
       <h2 className="text-1xl">Fullstack Developer</h2>
       <p className="mt-4">
