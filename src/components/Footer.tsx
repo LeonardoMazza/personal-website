@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="mt-20 text-left text-sm text-gray-500">
-            <p>Built with React.js and Tailwind CSS, deployed on Vercel.</p>
+        <footer className="mt-20 text-left text-sm">
+            <p>Built with <span className="text-link">React.js</span> and <span className="text-link">Tailwind CSS</span>, deployed on <span className="text-link">Vercel</span>.</p>
         </footer>
     );
 };

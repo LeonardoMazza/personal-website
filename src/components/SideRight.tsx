@@ -8,9 +8,6 @@ const SideRight = () => {
         <aside className="hidden md:block">
             <About />
             <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
             <Footer />
         </aside>
     );
