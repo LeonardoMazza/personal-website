@@ -1,13 +1,13 @@
 import Header from './Header';
 import Menu from './Menu';
-import Footer from './Footer';
+import Social from './Social';
 
 const SideLeft = () => {
   return (
     <aside className="hidden md:block">
       <Header />
       <Menu />
-      <Footer />
+      <Social />
     </aside>
   );
 };

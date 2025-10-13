@@ -1,5 +1,6 @@
 import About from "./About";
 import ExperienceCard from "./ExperienceCard";
+import Footer from "./Footer";
 
 const SideRight = () => {
 
@@ -10,6 +11,7 @@ const SideRight = () => {
             <ExperienceCard />
             <ExperienceCard />
             <ExperienceCard />
+            <Footer />
         </aside>
     );
 }
