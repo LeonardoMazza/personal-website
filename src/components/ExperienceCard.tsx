@@ -13,7 +13,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ exp, isActive }) => {
   return (
     <div className="max-w-6xl py-2 rounded-2xl transition-all duration-30">
       <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-        <div className="text-center md:text-left">
+        <div className="text-left">
           <p className="text-sm">{exp.date}</p>
         </div>
         <div>
@@ -29,7 +29,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ exp, isActive }) => {
             {exp.skills.map((skill, i) => (
               <li
                 key={i}
-                className="inline-block bg-card-background/60 text-link-hover text-xs font-medium px-3 py-1 mr-2 rounded-full border border-link-hover/20"
+                className="inline-block bg-card-background/60 text-link-hover text-xs font-medium px-3 py-1 mr-2 mb-2 rounded-full border border-link-hover/20"
               >
                 {skill}
               </li>
