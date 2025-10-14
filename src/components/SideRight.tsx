@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const SideRight = () => {
 
     return (
-        <aside className="hidden md:block">
+        <aside className="pt-24 lg:py-24">
             <About />
             <ExperienceCard />
             <Footer />

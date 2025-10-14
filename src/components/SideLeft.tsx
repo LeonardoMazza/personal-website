@@ -4,11 +4,11 @@ import Social from './Social';
 
 const SideLeft = () => {
   return (
-    <aside className="hidden md:block">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[52%] lg:flex-col lg:justify-between lg:py-24">
       <Header />
       <Menu />
       <Social />
-    </aside>
+    </header>
   );
 };
 

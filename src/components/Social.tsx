@@ -3,7 +3,7 @@ import { Github, Instagram, Link, Linkedin } from 'lucide-react';
 
 const Social = () => {
   return (
-    <div className="mt-8">
+    <div className="text-title">
         <ul className="flex space-x-4">
             <li>
                 <a href="https://github.com/leonardomazza" target="_blank" rel="noopener noreferrer">

@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section className="mb-24">
-      <p className="mt-4">
+      <p>
         I’m a Senior Full Stack Developer with solid experience in <span className="text-link">React, Vue, PHP, and Laravel.</span>
       </p>
       <br/>
