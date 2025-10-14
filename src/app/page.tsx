@@ -6,11 +6,10 @@ import SideRight from '../components/SideRight';
 export default function Home() {
   return (
     <>
-		<div className="max-w-6xl mx-auto">
+		<div className="max-w-6xl mx-auto font-sans">
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 				<SideLeft />
 				<SideRight />
-				
 			</div>
 		</div>
     </>

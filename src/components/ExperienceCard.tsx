@@ -29,7 +29,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ exp, isActive }) => {
             {exp.skills.map((skill, i) => (
               <li
                 key={i}
-                className="inline-block bg-card-background text-link-hover text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-2xl"
+                className="inline-block bg-card-background/60 text-link-hover text-xs font-medium px-3 py-1 mr-2 rounded-full border border-link-hover/20"
               >
                 {skill}
               </li>
