@@ -24,13 +24,5 @@ const projects: Project[] = [
     imageUrl: "/images/tivit.png",
     link: "https://www.tivit.com/",
   },
-  {
-    id: 3,
-    title: "Project Three",
-    description: "Description for Project Three",
-    imageUrl: "/images/project-three.png",
-    technologies: ["Angular", "TypeScript"],
-    link: "https://project-three.example.com",
-  },
 ];
 export default projects;
