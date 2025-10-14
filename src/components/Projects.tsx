@@ -2,8 +2,8 @@ import projects from "@/data/projects";
 
 const Projects = () => {
   return (
-    <section className="my-24">
-      <h2 className="text-1xl font-bold text-link-hover uppercase">Projects</h2>
+    <section className="my-18" id="projects">
+      <h2 className="text-1xl font-bold text-link-hover uppercase pt-8">Projects</h2>
 
 
       <div className="grid gap-12 md:gap-8 pt-6">

@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="mb-24">
-      <h2 className="text-1xl font-bold text-link-hover uppercase mb-6">About</h2>
+    <section className="mb-18" id="about">
+      <h2 className="text-1xl font-bold text-link-hover uppercase py-6">About</h2>
       <p>
         I’m a Senior Full Stack Developer with solid experience in <span className="text-link">React, Vue, PHP, and Laravel.</span>
       </p>

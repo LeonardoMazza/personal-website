@@ -45,8 +45,8 @@ const ExperienceSection: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col md:flex-col gap-6">
-      <h2 className="text-1xl font-bold text-link-hover uppercase">Experience</h2>
+    <div className="flex flex-col md:flex-col gap-6" id="experience">
+      <h2 className="text-1xl font-bold text-link-hover uppercase pt-6">Experience</h2>
 
       {experiences.map((exp, index) => {
         const isActive = index === activeIndex;
